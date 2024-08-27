@@ -1,0 +1,52 @@
+.navigation{
+    /* Couleur de fond*/
+    background-color: aliceblue;
+
+    /* Épaisseur de bordure */
+    border-radius: 5px;
+    /* Type de bordure */
+    border-style: dashed;
+    /* Couleur de bordure */
+    border-color: blue;
+
+    /* Espacement */
+    margin: 0px 5px 10px;
+
+}
+
+.content{
+    /* Pareil que la nivigation */
+    background-color: rgb(219, 236, 192);
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: green;
+    margin: 0px 5px 10px;
+    padding: 10px 2px;
+}
+
+footer {
+    /* Position du footer */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    /* Largeur */
+    height: 100px;
+    width: 100%;
+
+    /* Comme Navigation & contenu (content) */
+    background-color: rgb(245, 184, 169);
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: rgb(247, 146, 121);
+    margin: 0px 5px 10px;
+
+    /* Couleur du texte*/
+    color: rgb(70, 70, 70);
+    font-style: italic;
+}
+
+.footer-initiales{
+    /* Centrer le text à droite*/
+    text-align: right;
+}
